@@ -1,0 +1,473 @@
+# Phrases du widget pour apprendre l'anglais (widget-meteo-anglais.ahk)
+# Une par ligne : niveau|français|anglais   (1 débutant, 2 intermédiaire, 3 avancé)
+# 70 caractères au plus de chaque côté (une ligne du widget), pas de « | ».
+1|Bonjour, comment ça va ?|Hello, how are you?
+1|Je vais bien, merci.|I'm fine, thank you.
+1|Il fait beau aujourd'hui.|It's nice weather today.
+1|J'ai faim.|I'm hungry.
+1|J'ai soif.|I'm thirsty.
+1|Je suis fatigué.|I'm tired.
+1|Quelle heure est-il ?|What time is it?
+1|Il est huit heures.|It's eight o'clock.
+1|Où sont les toilettes ?|Where is the restroom?
+1|Je ne comprends pas.|I don't understand.
+1|Pouvez-vous répéter, s'il vous plaît ?|Can you repeat that, please?
+1|Parlez-vous anglais ?|Do you speak English?
+1|Je parle un peu anglais.|I speak a little English.
+1|Je m'appelle Paul.|My name is Paul.
+1|Comment tu t'appelles ?|What's your name?
+1|Enchanté de vous rencontrer.|Nice to meet you.
+1|À demain !|See you tomorrow!
+1|Bonne nuit.|Good night.
+1|Merci beaucoup.|Thank you very much.
+1|De rien.|You're welcome.
+1|Excusez-moi.|Excuse me.
+1|Je suis désolé.|I'm sorry.
+1|Combien ça coûte ?|How much does it cost?
+1|C'est trop cher.|It's too expensive.
+1|Je voudrais un café.|I would like a coffee.
+1|L'addition, s'il vous plaît.|The check, please.
+1|J'aime le chocolat.|I like chocolate.
+1|Je n'aime pas le froid.|I don't like the cold.
+1|Il fait froid ce matin.|It's cold this morning.
+1|Il fait chaud.|It's hot.
+1|Le ciel est bleu.|The sky is blue.
+1|J'habite en France.|I live in France.
+1|Je travaille à la maison.|I work from home.
+1|J'ai deux enfants.|I have two children.
+1|Mon frère est médecin.|My brother is a doctor.
+1|Ma sœur est plus jeune que moi.|My sister is younger than me.
+1|Nous sommes lundi.|Today is Monday.
+1|Quel jour sommes-nous ?|What day is it today?
+1|Je me lève à sept heures.|I get up at seven.
+1|Je prends le bus.|I take the bus.
+1|Le train est en retard.|The train is late.
+1|Où est la gare ?|Where is the train station?
+1|Tournez à gauche.|Turn left.
+1|Allez tout droit.|Go straight ahead.
+1|C'est loin d'ici ?|Is it far from here?
+1|C'est tout près.|It's very close.
+1|J'ai besoin d'aide.|I need help.
+1|Appelez un médecin !|Call a doctor!
+1|J'ai mal à la tête.|I have a headache.
+1|Je suis malade.|I'm sick.
+1|Je bois beaucoup d'eau.|I drink a lot of water.
+1|Le petit-déjeuner est prêt.|Breakfast is ready.
+1|On mange quoi ce soir ?|What are we eating tonight?
+1|J'adore la pizza.|I love pizza.
+1|C'est délicieux.|It's delicious.
+1|Je suis végétarien.|I'm a vegetarian.
+1|Une table pour deux, s'il vous plaît.|A table for two, please.
+1|Je cherche mes clés.|I'm looking for my keys.
+1|Où est mon téléphone ?|Where is my phone?
+1|Mon téléphone est déchargé.|My phone is dead.
+1|Quel est ton numéro ?|What's your number?
+1|Je t'appelle ce soir.|I'll call you tonight.
+1|Je suis en retard.|I'm late.
+1|Je suis en avance.|I'm early.
+1|Attends-moi !|Wait for me!
+1|Dépêche-toi !|Hurry up!
+1|On y va ?|Shall we go?
+1|Je suis prêt.|I'm ready.
+1|J'ai oublié.|I forgot.
+1|Je ne sais pas.|I don't know.
+1|Bien sûr !|Of course!
+1|Pas de problème.|No problem.
+1|C'est une bonne idée.|That's a good idea.
+1|Je suis d'accord.|I agree.
+1|Je ne suis pas d'accord.|I disagree.
+1|J'aime beaucoup ta robe.|I really like your dress.
+1|Tu es très gentil.|You're very kind.
+1|Bon anniversaire !|Happy birthday!
+1|Bonne chance !|Good luck!
+1|Bon appétit !|Enjoy your meal!
+1|Bon week-end !|Have a nice weekend!
+1|Joyeux Noël !|Merry Christmas!
+1|Bonne année !|Happy New Year!
+1|Ça ne fait rien.|It doesn't matter.
+1|J'ai une question.|I have a question.
+1|Peux-tu m'aider ?|Can you help me?
+1|Je t'aime.|I love you.
+1|Ferme la porte, s'il te plaît.|Close the door, please.
+1|Ouvre la fenêtre.|Open the window.
+1|Il y a beaucoup de monde.|There are a lot of people.
+1|Le magasin est fermé.|The shop is closed.
+1|Le musée est ouvert le dimanche.|The museum is open on Sundays.
+1|Je lis un livre.|I'm reading a book.
+1|Elle écoute de la musique.|She's listening to music.
+1|Il regarde la télévision.|He's watching TV.
+1|Nous allons au cinéma.|We're going to the movies.
+1|J'aime marcher dans la forêt.|I like walking in the forest.
+1|Mon chien s'appelle Max.|My dog's name is Max.
+1|Le chat dort sur le canapé.|The cat is sleeping on the sofa.
+1|J'ai acheté du pain.|I bought some bread.
+1|La cuisine est propre.|The kitchen is clean.
+1|Ma chambre est petite.|My bedroom is small.
+1|La maison a un jardin.|The house has a garden.
+1|Je suis à la maison.|I'm at home.
+1|Je vais au travail.|I'm going to work.
+1|J'ai une réunion à dix heures.|I have a meeting at ten.
+1|Mon bureau est au troisième étage.|My office is on the third floor.
+1|Je suis en vacances.|I'm on vacation.
+1|Il neige !|It's snowing!
+1|Le soleil se couche.|The sun is setting.
+1|Il y a du vent.|It's windy.
+1|Quel temps fait-il ?|What's the weather like?
+1|J'ai froid aux mains.|My hands are cold.
+1|Mets ton manteau.|Put your coat on.
+1|Où habites-tu ?|Where do you live?
+1|Quel âge as-tu ?|How old are you?
+1|J'ai trente ans.|I'm thirty years old.
+1|D'où viens-tu ?|Where are you from?
+1|Je viens de Lyon.|I'm from Lyon.
+1|C'est ma première fois ici.|It's my first time here.
+1|Je reste une semaine.|I'm staying for a week.
+1|J'ai réservé une chambre.|I booked a room.
+1|Le petit-déjeuner est compris ?|Is breakfast included?
+1|À quelle heure part le bus ?|What time does the bus leave?
+1|Un billet pour Paris, s'il vous plaît.|A ticket to Paris, please.
+1|Aller simple ou aller-retour ?|One way or round trip?
+1|Je paie par carte.|I'll pay by card.
+1|Vous acceptez les espèces ?|Do you take cash?
+1|Je regarde seulement, merci.|I'm just looking, thanks.
+1|Vous avez ça en plus grand ?|Do you have this in a bigger size?
+1|Je peux l'essayer ?|Can I try it on?
+1|C'est parfait.|It's perfect.
+1|Ça me plaît beaucoup.|I like it a lot.
+1|Je suis content.|I'm happy.
+1|Je suis triste.|I'm sad.
+1|J'ai peur des araignées.|I'm afraid of spiders.
+1|Je m'ennuie.|I'm bored.
+1|C'est facile.|It's easy.
+1|C'est difficile.|It's difficult.
+1|C'est vrai ?|Is that true?
+1|Je rentre à la maison.|I'm going home.
+1|Il est tard.|It's late.
+1|Je vais me coucher.|I'm going to bed.
+1|Dors bien.|Sleep well.
+1|Réveille-toi !|Wake up!
+1|J'ai bien dormi.|I slept well.
+1|Le café est chaud.|The coffee is hot.
+1|Encore un peu de thé ?|A little more tea?
+1|Je n'ai pas le temps.|I don't have time.
+1|À plus tard !|See you later!
+1|Salut, ça fait longtemps !|Hi, long time no see!
+1|Quoi de neuf ?|What's new?
+1|Rien de spécial.|Nothing special.
+1|Tu as des frères et sœurs ?|Do you have any brothers or sisters?
+1|Mes parents habitent à Lyon.|My parents live in Lyon.
+1|Je vais faire les courses.|I'm going grocery shopping.
+1|Il n'y a plus de lait.|We're out of milk.
+1|J'aime cuisiner.|I like cooking.
+1|Le dîner est à huit heures.|Dinner is at eight.
+1|Je suis sous la douche.|I'm in the shower.
+1|Éteins la lumière.|Turn off the light.
+1|Allume la télé.|Turn on the TV.
+1|J'écoute la radio.|I'm listening to the radio.
+1|Je fais du sport le matin.|I exercise in the morning.
+1|Je cours tous les jours.|I run every day.
+1|J'apprends l'anglais.|I'm learning English.
+1|Comment ça s'écrit ?|How do you spell it?
+1|Que veut dire ce mot ?|What does this word mean?
+1|Parle plus lentement, s'il te plaît.|Speak more slowly, please.
+1|J'ai compris !|I got it!
+2|Je pense que tu as raison.|I think you're right.
+2|Je me suis trompé de chemin.|I went the wrong way.
+2|Ça fait deux ans que j'habite ici.|I've been living here for two years.
+2|Je viens de finir mon travail.|I've just finished my work.
+2|Il faut que je parte maintenant.|I have to leave now.
+2|Si j'avais le temps, je voyagerais plus.|If I had time, I would travel more.
+2|On devrait se voir plus souvent.|We should see each other more often.
+2|Je n'y avais jamais pensé.|I had never thought of that.
+2|Tu aurais dû me le dire.|You should have told me.
+2|Je suis en train de cuisiner.|I'm in the middle of cooking.
+2|Ça dépend de la météo.|It depends on the weather.
+2|Je ne suis pas sûr de pouvoir venir.|I'm not sure I can come.
+2|Préviens-moi si tu es en retard.|Let me know if you're running late.
+2|Ça te dérange si j'ouvre la fenêtre ?|Do you mind if I open the window?
+2|J'ai hâte de te revoir.|I can't wait to see you again.
+2|On se retrouve devant le cinéma.|Let's meet in front of the movie theater.
+2|Je me suis levé tôt ce matin.|I got up early this morning.
+2|Il a commencé à pleuvoir.|It started to rain.
+2|La réunion a été annulée.|The meeting has been canceled.
+2|Je t'enverrai un message plus tard.|I'll text you later.
+2|Est-ce que tu peux me rappeler ?|Can you call me back?
+2|La ligne est occupée.|The line is busy.
+2|Je n'arrive pas à me connecter.|I can't log in.
+2|Mon ordinateur ne marche plus.|My computer doesn't work anymore.
+2|As-tu essayé de le redémarrer ?|Have you tried restarting it?
+2|Il faut mettre à jour l'application.|You need to update the app.
+2|Je travaille sur un nouveau projet.|I'm working on a new project.
+2|Le patron veut nous voir.|The boss wants to see us.
+2|J'ai pris un jour de congé.|I took a day off.
+2|Je finis tard ce soir.|I'm finishing late tonight.
+2|Je suis de repos demain.|I'm off tomorrow.
+2|Cette semaine, je travaille de nuit.|This week I'm working the night shift.
+2|J'ai demandé une augmentation.|I asked for a raise.
+2|Le délai est très court.|The deadline is very tight.
+2|Pouvez-vous m'envoyer le document ?|Can you send me the document?
+2|Je vous tiendrai au courant.|I'll keep you posted.
+2|Merci pour votre patience.|Thank you for your patience.
+2|Désolé de vous avoir fait attendre.|Sorry to keep you waiting.
+2|Je vous rappelle dans cinq minutes.|I'll call you back in five minutes.
+2|Il y a des bouchons sur l'autoroute.|There's a traffic jam on the highway.
+2|J'ai raté mon train.|I missed my train.
+2|Le vol a deux heures de retard.|The flight is delayed by two hours.
+2|Où est-ce que je peux récupérer mes bagages ?|Where can I pick up my luggage?
+2|J'ai perdu mon portefeuille.|I lost my wallet.
+2|Je me suis cassé le bras l'an dernier.|I broke my arm last year.
+2|Je dois prendre rendez-vous chez le dentiste.|I need to make a dentist appointment.
+2|Tu devrais te reposer un peu.|You should get some rest.
+2|Je me sens beaucoup mieux.|I feel much better.
+2|Je fais attention à ce que je mange.|I'm careful about what I eat.
+2|J'essaie de faire du sport trois fois par semaine.|I try to exercise three times a week.
+2|Ça fait longtemps que je ne l'ai pas vu.|I haven't seen him in a long time.
+2|Elle est partie sans dire au revoir.|She left without saying goodbye.
+2|Nous nous sommes rencontrés à la fac.|We met in college.
+2|Ils vont se marier l'été prochain.|They're getting married next summer.
+2|Je ne m'attendais pas à ça.|I didn't expect that.
+2|C'est moins cher que je pensais.|It's cheaper than I thought.
+2|Il y a de plus en plus de monde.|There are more and more people.
+2|Plus je travaille, plus je suis fatigué.|The more I work, the more tired I get.
+2|J'ai l'habitude de me lever tôt.|I'm used to getting up early.
+2|Je n'ai pas l'habitude de conduire à gauche.|I'm not used to driving on the left.
+2|Ça vaut le coup d'essayer.|It's worth a try.
+2|Ce n'est pas la peine de venir.|There's no need to come.
+2|Fais comme chez toi.|Make yourself at home.
+2|Je m'en occupe.|I'll take care of it.
+2|Tu peux compter sur moi.|You can count on me.
+2|Ça m'est égal.|I don't mind.
+2|Je n'en ai aucune idée.|I have no idea.
+2|Laisse-moi réfléchir.|Let me think about it.
+2|Qu'est-ce que tu en penses ?|What do you think about it?
+2|À mon avis, c'est une erreur.|In my opinion, it's a mistake.
+2|Je suis plutôt d'accord avec toi.|I pretty much agree with you.
+2|Ça m'étonnerait.|I doubt it.
+2|Tant mieux !|All the better!
+2|Tant pis.|Too bad.
+2|Ça ne sert à rien de s'inquiéter.|There's no point in worrying.
+2|On verra bien.|We'll see.
+2|Il vaut mieux partir tôt.|It's better to leave early.
+2|Je te prête mon parapluie.|I'll lend you my umbrella.
+2|Tu peux me prêter ton stylo ?|Can you lend me your pen?
+2|Je lui ai emprunté sa voiture.|I borrowed his car.
+2|La batterie est presque vide.|The battery is almost dead.
+2|N'oublie pas de charger ton téléphone.|Don't forget to charge your phone.
+2|Il fera beau tout le week-end.|The weather will be nice all weekend.
+2|On annonce de l'orage pour ce soir.|Storms are forecast for tonight.
+2|Il a fait très chaud cet été.|It was very hot this summer.
+2|Les jours raccourcissent.|The days are getting shorter.
+2|Je préfère l'automne au printemps.|I prefer fall to spring.
+2|Nous avons visité le musée hier.|We visited the museum yesterday.
+2|Je n'étais jamais allé à Londres.|I had never been to London.
+2|Tu es déjà allé aux États-Unis ?|Have you ever been to the United States?
+2|J'aimerais apprendre à jouer de la guitare.|I'd like to learn to play the guitar.
+2|Ça fait trois mois que j'apprends l'anglais.|I've been learning English for three months.
+2|Mon anglais s'améliore petit à petit.|My English is improving little by little.
+2|Je comprends mieux que je ne parle.|I understand better than I speak.
+2|Tu peux corriger mes fautes ?|Can you correct my mistakes?
+2|Je suis en train de lire un roman policier.|I'm reading a detective novel.
+2|Ce film m'a beaucoup plu.|I really enjoyed that movie.
+2|La fin était un peu décevante.|The ending was a bit disappointing.
+2|On a passé une excellente soirée.|We had a great evening.
+2|Merci de m'avoir invité.|Thanks for inviting me.
+2|Je regrette de ne pas être venu.|I regret not coming.
+2|Je suis fier de toi.|I'm proud of you.
+2|Tu m'as manqué.|I missed you.
+2|Il me manque beaucoup.|I miss him a lot.
+2|Je me demande ce qu'il fait.|I wonder what he's doing.
+2|Il paraît qu'il va neiger.|Apparently it's going to snow.
+2|Je viens de me rendre compte de mon erreur.|I've just realized my mistake.
+2|Il faut que je range ma chambre.|I need to tidy up my room.
+2|C'est à ton tour de faire la vaisselle.|It's your turn to do the dishes.
+2|Qui a laissé la lumière allumée ?|Who left the light on?
+2|La machine à laver est en panne.|The washing machine is broken.
+2|Il faut appeler un plombier.|We need to call a plumber.
+2|Le loyer augmente chaque année.|The rent goes up every year.
+2|On cherche un appartement plus grand.|We're looking for a bigger apartment.
+2|Les voisins font beaucoup de bruit.|The neighbors are very noisy.
+2|Je suis allergique aux arachides.|I'm allergic to peanuts.
+2|Qu'est-ce que vous me conseillez ?|What do you recommend?
+2|Je vais prendre la même chose.|I'll have the same thing.
+2|Le pourboire est compris ?|Is the tip included?
+2|Pourriez-vous m'indiquer le chemin ?|Could you give me directions?
+2|Il y a une pharmacie près d'ici ?|Is there a pharmacy near here?
+2|Je me suis perdu en chemin.|I got lost on the way.
+2|Nous sommes arrivés juste à temps.|We arrived just in time.
+2|Le magasin ferme dans dix minutes.|The store closes in ten minutes.
+2|J'ai mis de l'argent de côté pour les vacances.|I saved money for the vacation.
+2|Je n'ai pas les moyens d'acheter ça.|I can't afford that.
+2|C'est en promotion cette semaine.|It's on sale this week.
+2|Je voudrais me faire rembourser.|I'd like a refund.
+2|Pouvez-vous me faire un paquet cadeau ?|Can you gift-wrap it?
+2|Je vais y réfléchir.|I'll think about it.
+2|Il est temps de partir.|It's time to go.
+2|Nous avons failli rater l'avion.|We almost missed the plane.
+2|J'ai du mal à me concentrer.|I have trouble concentrating.
+2|Je suis épuisé après cette journée.|I'm worn out after today.
+2|Prends ton temps, rien ne presse.|Take your time, there's no rush.
+2|Je t'ai gardé une part de gâteau.|I saved you a piece of cake.
+2|On pourrait aller boire un verre.|We could go for a drink.
+2|Je t'invite, c'est pour moi.|It's on me.
+2|Ça te dirait d'aller à la plage ?|How about going to the beach?
+2|Tu es libre samedi soir ?|Are you free on Saturday night?
+2|Je suis pris ce week-end.|I'm busy this weekend.
+2|On remet ça à la semaine prochaine ?|Shall we postpone it to next week?
+2|Je me suis inscrit à la salle de sport.|I signed up at the gym.
+2|Ça fait du bien de se promener.|It feels good to go for a walk.
+2|Je dois me lever à cinq heures demain.|I have to get up at five tomorrow.
+2|J'ai travaillé toute la nuit.|I worked all night.
+2|Il est trop tôt pour le dire.|It's too early to tell.
+2|Tu n'as pas besoin de t'excuser.|You don't need to apologize.
+2|Il n'y a pas de quoi s'inquiéter.|There's nothing to worry about.
+3|Il pleut des cordes.|It's raining cats and dogs.
+3|Ce n'est pas la mer à boire.|It's not the end of the world.
+3|Je suis tombé des nues.|I was completely taken aback.
+3|Il ne faut pas vendre la peau de l'ours avant de l'avoir tué.|Don't count your chickens before they hatch.
+3|C'était les doigts dans le nez.|It was a breeze.
+3|Il a la tête dans les nuages.|He has his head in the clouds.
+3|Ça coûte les yeux de la tête.|It costs an arm and a leg.
+3|J'ai un chat dans la gorge.|I have a frog in my throat.
+3|Il a mis les pieds dans le plat.|He put his foot in his mouth.
+3|Quand les poules auront des dents.|When pigs fly.
+3|On n'est pas sortis de l'auberge.|We're not out of the woods yet.
+3|Je donne ma langue au chat.|I give up.
+3|Il fait un froid de canard.|It's freezing cold.
+3|Ça saute aux yeux.|It's plain as day.
+3|Il a pris ses jambes à son cou.|He took to his heels.
+3|Elle a le cœur sur la main.|She has a heart of gold.
+3|C'est la goutte d'eau qui fait déborder le vase.|That's the last straw.
+3|Il faut battre le fer pendant qu'il est chaud.|Strike while the iron is hot.
+3|Petit à petit, l'oiseau fait son nid.|Slow and steady wins the race.
+3|Qui ne tente rien n'a rien.|Nothing ventured, nothing gained.
+3|Mieux vaut tard que jamais.|Better late than never.
+3|L'habit ne fait pas le moine.|Don't judge a book by its cover.
+3|Les murs ont des oreilles.|The walls have ears.
+3|Il y a anguille sous roche.|Something fishy is going on.
+3|Ne remets pas à demain ce que tu peux faire aujourd'hui.|Don't put off until tomorrow what you can do today.
+3|Ça tombe à pic.|That's perfect timing.
+3|Je n'ai pas fermé l'œil de la nuit.|I didn't sleep a wink.
+3|Il m'a posé un lapin.|He stood me up.
+3|Arrête de tourner autour du pot.|Stop beating around the bush.
+3|On est dans le même bateau.|We're in the same boat.
+3|Ça ne me dit rien.|It doesn't ring a bell.
+3|Ce n'est pas ma tasse de thé.|It's not my cup of tea.
+3|Il est temps de passer aux choses sérieuses.|It's time to get down to business.
+3|Je vais y réfléchir à tête reposée.|I'll sleep on it.
+3|Il faut se serrer la ceinture.|We need to tighten our belts.
+3|Elle a réussi haut la main.|She passed with flying colors.
+3|Il a vendu la mèche.|He let the cat out of the bag.
+3|Tu m'enlèves les mots de la bouche.|You took the words right out of my mouth.
+3|C'est l'hôpital qui se moque de la charité.|That's the pot calling the kettle black.
+3|On fait d'une pierre deux coups.|We'll kill two birds with one stone.
+3|Je suis à court d'idées.|I've run out of ideas.
+3|La réunion a été reportée à une date ultérieure.|The meeting has been put off until a later date.
+3|Il faut que je rattrape mon retard.|I need to catch up.
+3|On a fini par trouver une solution.|We ended up finding a solution.
+3|Il s'est avéré que j'avais tort.|It turned out that I was wrong.
+3|Je n'arrive pas à me faire à cette idée.|I can't get used to the idea.
+3|Il a laissé tomber ses études.|He dropped out of school.
+3|On compte sur toi pour nous tenir au courant.|We're counting on you to keep us in the loop.
+3|Ça ne me regarde pas.|It's none of my business.
+3|Je m'en fiche complètement.|I couldn't care less.
+3|Il faudrait qu'on en parle de vive voix.|We should talk about it in person.
+3|À la réflexion, je préfère rester.|On second thought, I'd rather stay.
+3|Sans vouloir te vexer, tu te trompes.|No offense, but you're wrong.
+3|Il a beau essayer, il n'y arrive pas.|No matter how hard he tries, he can't do it.
+3|Pour peu qu'il fasse beau, on ira.|As long as the weather's nice, we'll go.
+3|Quoi qu'il arrive, je serai là.|Whatever happens, I'll be there.
+3|Où que tu ailles, je te suivrai.|Wherever you go, I'll follow you.
+3|Je ne l'aurais jamais cru si je ne l'avais pas vu.|I wouldn't have believed it if I hadn't seen it.
+3|Si j'avais su, je serais venu plus tôt.|If I had known, I would have come earlier.
+3|Il aurait mieux valu les prévenir.|It would have been better to warn them.
+3|Elle a beau être riche, elle n'est pas heureuse.|Rich as she is, she isn't happy.
+3|Il était sur le point de partir.|He was about to leave.
+3|Je suis à deux doigts de démissionner.|I'm this close to quitting.
+3|Il a du pain sur la planche.|He has a lot on his plate.
+3|Ce projet me tient à cœur.|This project means a lot to me.
+3|Il ne faut pas prendre ça à la légère.|You shouldn't take this lightly.
+3|Il a toujours le dernier mot.|He always has the last word.
+3|Ça n'a ni queue ni tête.|It makes no sense at all.
+3|Il a le bras long.|He has friends in high places.
+3|Elle ne mâche pas ses mots.|She doesn't mince her words.
+3|Je suis dans le pétrin.|I'm in a pickle.
+3|Ça me tape sur les nerfs.|It's getting on my nerves.
+3|C'est du gâteau.|It's a piece of cake.
+3|Ils se sont mis d'accord à l'amiable.|They settled it amicably.
+3|Nous avons dû revoir nos ambitions à la baisse.|We had to scale back our ambitions.
+3|Il faut prendre du recul.|You need to take a step back.
+3|Cela va sans dire.|It goes without saying.
+3|Au bout du compte, ça en valait la peine.|In the end, it was worth it.
+3|Le jeu n'en vaut pas la chandelle.|It's not worth the trouble.
+3|Il a fait la sourde oreille.|He turned a deaf ear.
+3|Elle a sauté sur l'occasion.|She jumped at the chance.
+3|Ne te fais pas de mauvais sang.|Don't worry yourself sick.
+3|Il faut voir le verre à moitié plein.|Look on the bright side.
+3|Je te retourne la question.|I could ask you the same thing.
+3|On a mis les bouchées doubles.|We doubled our efforts.
+3|Il a remis les pendules à l'heure.|He set the record straight.
+3|Tu parles d'une surprise !|Talk about a surprise!
+3|J'en ai ras le bol.|I'm fed up.
+3|Elle a eu un coup de foudre pour lui.|She fell head over heels for him.
+3|On s'est donné rendez-vous à mi-chemin.|We agreed to meet halfway.
+3|Tout le monde devra mettre la main à la pâte.|Everyone will have to pitch in.
+3|Je suis crevé, je vais piquer un somme.|I'm beat, I'm going to take a nap.
+3|Il a raté le coche.|He missed the boat.
+3|Rira bien qui rira le dernier.|He who laughs last laughs best.
+3|La nuit porte conseil.|Sleep on it.
+3|Chat échaudé craint l'eau froide.|Once bitten, twice shy.
+3|Il ne faut pas mettre tous ses œufs dans le même panier.|Don't put all your eggs in one basket.
+3|Tout vient à point à qui sait attendre.|Good things come to those who wait.
+3|Il n'y a pas de fumée sans feu.|There's no smoke without fire.
+3|Loin des yeux, loin du cœur.|Out of sight, out of mind.
+3|Quand le chat n'est pas là, les souris dansent.|When the cat's away, the mice will play.
+3|Les grands esprits se rencontrent.|Great minds think alike.
+3|Chacun son truc.|To each their own.
+3|Il vaut mieux prévenir que guérir.|Better safe than sorry.
+3|Pierre qui roule n'amasse pas mousse.|A rolling stone gathers no moss.
+3|L'union fait la force.|There's strength in numbers.
+3|Ce qui est fait est fait.|What's done is done.
+3|On récolte ce que l'on sème.|You reap what you sow.
+3|Je vais tirer ça au clair.|I'll get to the bottom of this.
+3|Il a mis du temps à s'en remettre.|It took him a while to get over it.
+3|Ils ont rompu le mois dernier.|They broke up last month.
+3|Je suis tombé sur un vieil ami.|I ran into an old friend.
+3|Il faut que je m'y mette.|I need to get down to it.
+3|On s'entend très bien.|We get along really well.
+3|Elle tient de sa mère.|She takes after her mother.
+3|Je n'arrive pas à m'en débarrasser.|I can't get rid of it.
+3|La réunion s'est éternisée.|The meeting dragged on.
+3|Il a fini par céder.|He eventually gave in.
+3|Je vais me renseigner.|I'll look into it.
+3|Peux-tu passer me prendre à huit heures ?|Can you pick me up at eight?
+3|Accroche-toi, ne lâche rien !|Hang in there!
+3|Ça a été annulé à la dernière minute.|It was called off at the last minute.
+3|Il a trouvé une excuse bidon.|He came up with a lame excuse.
+3|J'ai laissé passer ma chance.|I let my chance slip away.
+3|Je t'en veux encore.|I'm still mad at you.
+3|Ça me fait froid dans le dos.|It gives me the chills.
+3|Il ne tient pas en place.|He can't sit still.
+3|Elle a la main verte.|She has a green thumb.
+3|Il est tiré à quatre épingles.|He's dressed to the nines.
+3|Il m'a tiré une épine du pied.|He got me out of a jam.
+3|C'est une autre paire de manches.|That's a whole different ball game.
+3|Ça ne casse pas trois pattes à un canard.|It's nothing to write home about.
+3|Il se noie dans un verre d'eau.|He makes a mountain out of a molehill.
+3|Ce n'est pas demain la veille.|That's not going to happen anytime soon.
+3|J'ai d'autres chats à fouetter.|I have bigger fish to fry.
+3|Il l'a échappé belle.|He had a narrow escape.
+3|C'est bonnet blanc et blanc bonnet.|It's six of one, half a dozen of the other.
+3|Coupons la poire en deux.|Let's split the difference.
+3|Tu as mis dans le mille.|You hit the nail on the head.
+3|Il a jeté l'éponge.|He threw in the towel.
+3|Il faut savoir tourner la page.|You have to be able to move on.
+3|Il a eu le dernier mot, comme d'habitude.|He got the last word, as usual.
+3|Ne t'en fais pas, ça va s'arranger.|Don't worry, it'll work out.
+3|Je ne suis pas dans mon assiette.|I'm feeling under the weather.
+3|Il a les yeux plus gros que le ventre.|His eyes are bigger than his stomach.
+3|Elle a pris la mouche.|She got all worked up.
+3|Il cherche la petite bête.|He's nitpicking.
+3|On n'a rien sans rien.|No pain, no gain.
+3|C'est le monde à l'envers !|That's crazy, it's all upside down!
+3|Il a un caractère de cochon.|He has a nasty temper.
+3|Tu ne perds rien pour attendre.|You'll get what's coming to you.

@@ -1,0 +1,31 @@
+# Secrets et configurations locales
+local.properties
+**/google-services.json
+*.jks
+*.keystore
+key.properties
+.env
+.env.*
+!.env.example
+
+# Données du widget : elles vivent dans %LOCALAPPDATA%\WidgetMeteo, jamais ici
+cle-idfm.txt
+reglages.ini
+jours.txt
+*.log
+
+# Livrables compilés : on les refait depuis le source
+/build/
+*.apk
+*.aab
+*.exe
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Fichiers de travail, modèles téléchargés
+*.tmp
+*.part
+*.onnx
