@@ -31,7 +31,7 @@ Persistent
 ;  Modules : widget-meteo-previsions.ahk, widget-meteo-animation.ahk.
 ; =============================================================================
 
-VERSION := "2.31.1"
+VERSION := "2.31.2"
 
 ; ---------- Mise en page ----------
 ; Tout est exprimé en fractions de HC, la hauteur du bloc de contenu (du haut
@@ -2487,7 +2487,7 @@ AnalyserFond() {
     global AnalysePID
     if ((AnalysePID && ProcessExist(AnalysePID)) || !FileExist(SCRIPT_FOND))
         return
-    cmd := 'pyw.exe -3.10 "' SCRIPT_FOND '" ' A_ScreenWidth " " A_ScreenHeight (Profondeur ? "" : " --sans-masque") ((RenduHeure = "verre") ? " --verre" : "")
+    cmd := 'pyw.exe -3.11 "' SCRIPT_FOND '" ' A_ScreenWidth " " A_ScreenHeight (Profondeur ? "" : " --sans-masque") ((RenduHeure = "verre") ? " --verre" : "")
     try Run(cmd, A_ScriptDir, "Hide", &AnalysePID)
     catch as err {
         Journal("analyse du fond impossible à lancer : " err.Message)
@@ -2601,7 +2601,7 @@ LancerAmbiance(nom) {
     if !FileExist(SCRIPT_FOND)
         return
     AmbianceSansCreation := SobreDiffere()        ; sur batterie : pas de nouvelle génération (~40 s de calcul)
-    cmd := 'pyw.exe -3.10 "' SCRIPT_FOND '" ' A_ScreenWidth " " A_ScreenHeight " --ambiance " nom
+    cmd := 'pyw.exe -3.11 "' SCRIPT_FOND '" ' A_ScreenWidth " " A_ScreenHeight " --ambiance " nom
         . (AmbianceSansCreation ? " --seulement-existante" : "")
     try FileDelete(D_FOND "\ambiance.txt")       ; (un « à créer » périmé ne doit pas être relu)
     AmbianceDemandee := nom, AmbianceCle := nom "|" FondRegistre()

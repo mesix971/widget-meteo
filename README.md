@@ -85,9 +85,9 @@ vigilance, la qualité de l'air et les transports sont ceux de la France.
 
 ### Options
 
-- **Effet profondeur et ambiances** : Python 3.10, puis
+- **Effet profondeur et ambiances** : Python 3.11, puis
   ```bash
-  py -3.10 -m pip install -r requirements.txt
+  py -3.11 -m pip install -r requirements.txt
   ```
   Le modèle de détourage (BiRefNet, 224 Mo) se télécharge depuis **Réglages ▸ Apparence**.
 - **Transports en Île-de-France** : crée un jeton gratuit sur

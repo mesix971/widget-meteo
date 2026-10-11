@@ -1,4 +1,4 @@
-# Dépendances de widget-meteo-fond.py (Python 3.10, lancé par « pyw -3.10 »)
+# Dépendances de widget-meteo-fond.py (Python 3.11, lancé par « pyw -3.11 »)
 numpy==2.2.6
 onnxruntime==1.20.1
 opencv-python==4.13.0.92

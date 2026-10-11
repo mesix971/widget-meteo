@@ -14,8 +14,8 @@ Produit dans %LOCALAPPDATA%\\WidgetMeteo\\fond\\ :
   - verre.png     : (--verre) le fond flouté en demi-résolution, alpha = 255 −
                     sujet, pour le rendu « Verre dépoli » de l'heure.
 
-Usage : pyw -3.10 widget-meteo-fond.py <largeur_ecran> <hauteur_ecran> [--sans-masque] [--verre]
-        pyw -3.10 widget-meteo-fond.py <largeur_ecran> <hauteur_ecran> --ambiance <phase-météo> [--seulement-existante]
+Usage : pyw -3.11 widget-meteo-fond.py <largeur_ecran> <hauteur_ecran> [--sans-masque] [--verre]
+        pyw -3.11 widget-meteo-fond.py <largeur_ecran> <hauteur_ecran> --ambiance <phase-météo> [--seulement-existante]
 Le détourage (une dizaine de secondes) n'est refait que si le fond change.
 Le mode --ambiance pose une variante de la photo (nuit-pluie, crepuscule-clair…,
 ou jour-clair pour la photo d'origine) : voir ambiance() plus bas. Avec

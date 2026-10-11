@@ -1,5 +1,10 @@
 # Widget météo — journal des versions
 
+## 2.31.2 — 2026-10-07
+- Python : l'effet profondeur et les ambiances utilisent Python 3.11
+  (`pyw -3.11`) au lieu de 3.10, avec les mêmes versions des modules
+  (requirements.txt) ; détourage vérifié identique au pixel près.
+
 ## 2.31.1 — 2026-09-28
 - Tests : « Mes jours » vérifié sur des dates fictives (2054, même calendrier
   que 2026) ; le test des transports marche aussi sur un dossier de données vierge.
