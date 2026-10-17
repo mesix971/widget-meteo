@@ -31,7 +31,7 @@ Persistent
 ;  Modules : widget-meteo-previsions.ahk, widget-meteo-animation.ahk.
 ; =============================================================================
 
-VERSION := "2.31.2"
+VERSION := "2.31.3"
 
 ; ---------- Mise en page ----------
 ; Tout est exprimé en fractions de HC, la hauteur du bloc de contenu (du haut
@@ -719,6 +719,11 @@ InitGdip() {
 
 Demarrer() {
     FermerAutresInstances()
+    ; Le widget redémarre : la veille (widget-meteo-veille.ahk) peut de nouveau
+    ; le relancer s'il venait à disparaître. Effacé deux fois : l'instance
+    ; remplacée se ferme comme par « Quitter », sans qu'on l'attende.
+    EffacerArretVolontaire()
+    SetTimer(EffacerArretVolontaire, -5000)
     OnError(NoterErreur)
     DirCreate(DOSSIER)
     vp := ""
@@ -866,7 +871,16 @@ Reconstruire() {
 
 Repositionner() => Redessiner(true)
 
-Quitter(*) {
+EffacerArretVolontaire() {
+    try FileDelete(DOSSIER "\arret-volontaire.txt")
+}
+
+Quitter(raison := "", *) {
+    ; Fermeture voulue par l'utilisateur (menu Quitter, icône de notification) :
+    ; noté pour que la veille ne relance pas le widget. Un plantage, lui, ne
+    ; passe jamais par ici, et une fermeture de session n'est pas un choix.
+    if (raison = "Exit" || raison = "Menu" || raison = "Close")
+        try FileAppend(FormatTime(, "yyyy-MM-dd HH:mm:ss") "`n", DOSSIER "\arret-volontaire.txt", "UTF-8")
     DesarmerMinute()
     DesinscrireAlimentation()
     SurveillerVisibilite(false)

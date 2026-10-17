@@ -401,7 +401,10 @@ ArmerMinute(cible := "") {
     if IsObject(cible)
         TicCible := cible
     if !CB_MINUTE
-        CB_MINUTE := CallbackCreate(TicMinute, "F", 4)   ; gardé en global jusqu'à la sortie (sinon plantage)
+        ; Sans l'option « F » (rapide) : ce rappel arrive par un message Windows,
+        ; donc au milieu de n'importe quel fil du script ; la doc d'AutoHotkey
+        ; proscrit alors le mode rapide (plantage du widget le 16/10/2026).
+        CB_MINUTE := CallbackCreate(TicMinute, "", 4)    ; gardé en global jusqu'à la sortie (sinon plantage)
     DllCall("SetTimer", "Ptr", A_ScriptHwnd, "UPtr", ID_TIC_MINUTE, "UInt", ProchaineMinute(), "Ptr", CB_MINUTE, "UPtr")
 }
 
@@ -491,7 +494,9 @@ SurveillerVisibilite(actif) {
     GuetActif := !!actif
     if actif {
         if !CB_HOOK
-            CB_HOOK := CallbackCreate(HookFenetres, "F", 7), CB_VISIB := CallbackCreate(TicVisibilite, "F", 4)
+            ; sans l'option « F » (rapide) : rappels déclenchés par des messages
+            ; Windows (voir ArmerMinute)
+            CB_HOOK := CallbackCreate(HookFenetres, "", 7), CB_VISIB := CallbackCreate(TicVisibilite, "", 4)
         for plage in [[0x0003, 0x0003], [0x000B, 0x000B], [0x0016, 0x0017], [0x8017, 0x8018]]
             if (h := DllCall("SetWinEventHook", "UInt", plage[1], "UInt", plage[2], "Ptr", 0, "Ptr", CB_HOOK,
                 "UInt", 0, "UInt", 0, "UInt", 2, "Ptr"))   ; hors contexte, sans nos propres fenêtres

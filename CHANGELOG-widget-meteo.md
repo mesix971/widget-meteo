@@ -1,5 +1,14 @@
 # Widget météo — journal des versions
 
+## 2.31.3 — 2026-10-17
+- Stabilité : le widget avait disparu (plantage d'AutoHotkey le 16/10 à 22:47).
+  Les rappels Windows (tic de la minute, surveillance des fenêtres) ne
+  sont plus en mode « rapide », que la documentation d'AutoHotkey proscrit
+  pour un rappel déclenché par un message.
+- Nouveau `widget-meteo-veille.ahk`, lancé toutes les 5 minutes par une tâche
+  planifiée : relance le widget s'il a disparu, sauf s'il a été quitté
+  volontairement (fichier `arret-volontaire.txt`, effacé au démarrage).
+
 ## 2.31.2 — 2026-10-07
 - Python : l'effet profondeur et les ambiances utilisent Python 3.11
   (`pyw -3.11`) au lieu de 3.10, avec les mêmes versions des modules

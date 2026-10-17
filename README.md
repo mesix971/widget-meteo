@@ -144,6 +144,7 @@ Toutes gratuites ; aucune clé sauf le jeton gratuit des transports franciliens.
 |---|---|
 | `widget-meteo.ahk` | Le widget : dessin (GDI+), fenêtres, zones cliquables, réglages. |
 | `widget-meteo-*.ahk` | Ses modules : prévisions, styles, heure, calendrier, infos, Mes jours, lumière, anniversaires, air, climat, ciel, lune, marchés, fiche d'actualité, transports, anglais, écran, Réglages. |
+| `widget-meteo-veille.ahk` | Veille (option) : relance le widget s'il a disparu, sauf si tu l'as quitté toi-même. À lancer toutes les 5 minutes avec le Planificateur de tâches. |
 | `widget-meteo-donnees.ps1` | Collecte météo, position, calendrier, vigilance, air, climat, ISS. |
 | `widget-meteo-marches.ps1` | Collecte des marchés, des titres, des phrases Tatoeba et des départs ; recherche d'arrêts. |
 | `widget-meteo-fond.py` | Analyse du fond d'écran et ambiances (option). |
@@ -155,7 +156,7 @@ avec un dossier de test, jamais sur le tien. En PowerShell :
 
 ```powershell
 $env:LOCALAPPDATA = "$env:TEMP\widget-test"
-& "C:\Program Files\AutoHotkey2\AutoHotkey64.exe" widget-meteo.ahk /testreglages "$env:TEMPesultat.txt"
+& "C:\Program Files\AutoHotkey\v2\AutoHotkey64.exe" widget-meteo.ahk /testreglages "$env:TEMP\resultat.txt"
 ```
 
 (aussi `/testmarches`, `/testrer`, `/testpluie`, `/testjours`, `/testfiche`… ; le résultat
